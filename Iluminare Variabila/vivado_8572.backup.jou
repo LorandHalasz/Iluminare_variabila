@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed May 24 16:32:59 2017
+# Process ID: 8572
+# Current directory: E:/Iluminare Variabila
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14944 E:\Iluminare Variabila\Iluminare Variabila.xpr
+# Log file: E:/Iluminare Variabila/vivado.log
+# Journal file: E:/Iluminare Variabila\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Iluminare Variabila/Iluminare Variabila.xpr}
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183795612A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183795612A]
+open_hw_target
+set_property PROGRAM.FILE {E:/Iluminare Variabila/Iluminare Variabila.runs/impl_1/main.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/Iluminare Variabila/Iluminare Variabila.runs/impl_1/main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

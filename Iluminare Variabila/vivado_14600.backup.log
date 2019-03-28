@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 22 17:20:44 2019
+# Process ID: 14600
+# Current directory: C:/Users/ASUS/Desktop/PS/Iluminare Variabila
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15028 C:\Users\ASUS\Desktop\PS\Iluminare Variabila\Iluminare Variabila.xpr
+# Log file: C:/Users/ASUS/Desktop/PS/Iluminare Variabila/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/PS/Iluminare Variabila\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Iluminare Variabila' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Iluminare Variabila.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:01:33 . Memory (MB): peak = 660.301 ; gain = 92.277
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Mar 22 17:30:14 2019] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.runs/synth_1/runme.log
+[Fri Mar 22 17:30:14 2019] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.runs/impl_1/runme.log
+open_hw

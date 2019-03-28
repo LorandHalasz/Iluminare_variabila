@@ -1,0 +1,492 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 380.148 ; gain = 99.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:20]
+INFO: [Synth 8-3491] module 'Afisare' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Afisare.vhd:5' bound to instance 'afis' of component 'Afisare' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Afisare' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Afisare.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Afisare' (1#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Afisare.vhd:15]
+INFO: [Synth 8-3491] module 'Introducere_Valori' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:4' bound to instance 'intrval' of component 'Introducere_Valori' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Introducere_Valori' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Introducere_Valori' (2#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:14]
+INFO: [Synth 8-3491] module 'Mod_manual' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_manual.vhd:5' bound to instance 'manual' of component 'Mod_manual' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Mod_manual' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_manual.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Mod_manual' (3#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_manual.vhd:15]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Mod_test' (4#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:18]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_test' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:6' bound to instance 'test_led_i' of component 'Mod_test' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:101]
+INFO: [Synth 8-3491] module 'Mod_automat' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:4' bound to instance 'auto' of component 'Mod_automat' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'Mod_automat' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Mod_automat' (5#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:15]
+INFO: [Synth 8-3491] module 'Alegerea_modului' declared at 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Alegera_modului.vhd:4' bound to instance 'mod_funct' of component 'Alegerea_modului' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'Alegerea_modului' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Alegera_modului.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Alegerea_modului' (6#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Alegera_modului.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'main' (7#1) [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Iluminare_variabila.vhd:20]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[31]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[30]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[29]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[28]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[27]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[26]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[25]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[24]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[23]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[22]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[21]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[20]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[19]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[18]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[17]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[16]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[15]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[14]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[13]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[12]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[11]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[10]
+WARNING: [Synth 8-3331] design Mod_test has unconnected port valmin[9]
+WARNING: [Synth 8-3331] design Introducere_Valori has unconnected port clk
+WARNING: [Synth 8-3331] design Introducere_Valori has unconnected port mode[1]
+WARNING: [Synth 8-3331] design Introducere_Valori has unconnected port mode[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:28 . Memory (MB): peak = 436.883 ; gain = 156.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:30 . Memory (MB): peak = 436.883 ; gain = 156.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:30 . Memory (MB): peak = 436.883 ; gain = 156.387
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/constrs_1/new/Constrains.xdc]
+Finished Parsing XDC File [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/constrs_1/new/Constrains.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/constrs_1/new/Constrains.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 766.965 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 766.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 766.965 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.159 . Memory (MB): peak = 766.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:01:05 . Memory (MB): peak = 766.965 ; gain = 486.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:01:05 . Memory (MB): peak = 766.965 ; gain = 486.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:01:05 . Memory (MB): peak = 766.965 ; gain = 486.469
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "count_afis" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "min" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:75]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:45]
+WARNING: [Synth 8-327] inferring latch for variable 'an_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Afisare.vhd:47]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Afisare.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'min_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'max_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:23]
+WARNING: [Synth 8-327] inferring latch for variable 'int_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Introducere_valori.vhd:25]
+WARNING: [Synth 8-327] inferring latch for variable 'pwm_m_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_manual.vhd:37]
+WARNING: [Synth 8-327] inferring latch for variable 'k_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:65]
+WARNING: [Synth 8-327] inferring latch for variable 'pwm_t_reg' [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_test.vhd:81]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:01:07 . Memory (MB): peak = 766.965 ; gain = 486.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 25    
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 8     
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 9     
+	   2 Input      9 Bit       Adders := 18    
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 9     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 18    
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Multipliers : 
+	                26x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 17    
+	   2 Input     31 Bit        Muxes := 8     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 17    
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Afisare 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Introducere_Valori 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Mod_manual 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Mod_automat 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                26x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+Module Alegerea_modului 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+Module Mod_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     31 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "count_afis" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.srcs/sources_1/new/Mod_automat.vhd:48]
+DSP Report: Generating DSP counter_a2, operation Mode is: A*B.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: Generating DSP counter_a2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: Generating DSP counter_a2, operation Mode is: A*B.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: Generating DSP counter_a2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+DSP Report: operator counter_a2 is absorbed into DSP counter_a2.
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[0]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[1]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[2]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[3]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[4]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[5]' (LDC) to 'manual/pwm_m_reg[7]'
+INFO: [Synth 8-3886] merging instance 'manual/pwm_m_reg[6]' (LDC) to 'manual/pwm_m_reg[7]'
+WARNING: [Synth 8-3332] Sequential element (an_reg[3]) is unused and will be removed from module Afisare.
+WARNING: [Synth 8-3332] Sequential element (an_reg[2]) is unused and will be removed from module Afisare.
+WARNING: [Synth 8-3332] Sequential element (an_reg[1]) is unused and will be removed from module Afisare.
+WARNING: [Synth 8-3332] Sequential element (an_reg[0]) is unused and will be removed from module Afisare.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:01:23 . Memory (MB): peak = 766.965 ; gain = 486.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Mod_automat | A*B            | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Mod_automat | (PCIN>>17)+A*B | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Mod_automat | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Mod_automat | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:01:38 . Memory (MB): peak = 821.336 ; gain = 540.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:01:38 . Memory (MB): peak = 824.219 ; gain = 543.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:01:40 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:01:44 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:01:44 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:01:44 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:01:45 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:01:45 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:01:45 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |   947|
+|3     |DSP48E1 |     3|
+|4     |LUT1    |    44|
+|5     |LUT2    |  1027|
+|6     |LUT3    |  2082|
+|7     |LUT4    |   209|
+|8     |LUT5    |   107|
+|9     |LUT6    |   239|
+|10    |MUXF7   |     8|
+|11    |FDCE    |   386|
+|12    |FDRE    |    91|
+|13    |LD      |    24|
+|14    |LDC     |    15|
+|15    |LDP     |     2|
+|16    |IBUF    |    15|
+|17    |OBUF    |    19|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------------+------+
+|      |Instance              |Module             |Cells |
++------+----------------------+-------------------+------+
+|1     |top                   |                   |  5220|
+|2     |  afis                |Afisare            |   100|
+|3     |  auto                |Mod_automat        |   488|
+|4     |  \gen[0].test_led_i  |Mod_test           |  2821|
+|5     |  \gen[1].test_led_i  |Mod_test_0         |   211|
+|6     |  \gen[2].test_led_i  |Mod_test_1         |   211|
+|7     |  \gen[3].test_led_i  |Mod_test_2         |   212|
+|8     |  \gen[4].test_led_i  |Mod_test_3         |   211|
+|9     |  \gen[5].test_led_i  |Mod_test_4         |   213|
+|10    |  \gen[6].test_led_i  |Mod_test_5         |   212|
+|11    |  \gen[7].test_led_i  |Mod_test_6         |   213|
+|12    |  intrval             |Introducere_Valori |   257|
+|13    |  manual              |Mod_manual         |    30|
++------+----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:01:45 . Memory (MB): peak = 854.227 ; gain = 573.730
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:01:16 . Memory (MB): peak = 854.227 ; gain = 243.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:46 . Memory (MB): peak = 854.227 ; gain = 573.730
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 999 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 854.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 41 instances were transformed.
+  LD => LDCE: 24 instances
+  LDC => LDCE: 15 instances
+  LDP => LDPE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:54 . Memory (MB): peak = 854.227 ; gain = 585.719
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 854.227 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ASUS/Desktop/PS/Iluminare Variabila/Iluminare Variabila.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 22 17:32:28 2019...

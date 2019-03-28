@@ -1,0 +1,93 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Mar 22 17:37:15 2019
+| Host         : DESKTOP-710HK9M running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    23 |
+| Unused register locations in slices containing registers |    90 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      4 |            1 |
+|      7 |            1 |
+|      8 |            5 |
+|      9 |           10 |
+|     15 |            1 |
+|    16+ |            3 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              28 |           16 |
+| No           | No                    | Yes                    |               9 |            8 |
+| No           | Yes                   | No                     |              32 |           21 |
+| Yes          | No                    | No                     |              64 |           20 |
+| Yes          | No                    | Yes                    |             377 |           79 |
+| Yes          | Yes                   | No                     |               8 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+-----------------------------+--------------------------+------------------+----------------+
+|             Clock Signal            |        Enable Signal        |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-------------------------------------+-----------------------------+--------------------------+------------------+----------------+
+|  manual/pwm_m_reg[7]_i_2_n_0        |                             | reset_IBUF               |                1 |              1 |
+|  auto/k_reg_i_1_n_3                 |                             | auto/k_reg_i_2_n_3       |                1 |              1 |
+|  clk_IBUF_BUFG                      |                             |                          |                3 |              4 |
+|                                     |                             | afis/seg_reg[0]_i_2_n_0  |                7 |              7 |
+|  intrval/min_reg[7]_i_1_n_0         |                             |                          |                5 |              8 |
+|  intrval/int_reg[7]_i_1_n_0         |                             |                          |                4 |              8 |
+|  intrval/max_reg[7]_i_1_n_0         |                             |                          |                4 |              8 |
+|  count_t0                           |                             | reset_IBUF               |                8 |              8 |
+|  clk_IBUF_BUFG                      | manual/pwm_m_reg[7]_i_2_n_0 | manual/count_m0          |                4 |              8 |
+|  auto/clkdiv_a_reg_n_0              | auto/counter_a[31]_i_1_n_0  | reset_IBUF               |                3 |              9 |
+|  gen[1].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[0].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[2].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[3].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[4].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[5].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[7].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  gen[6].test_led_i/clkdiv_t_reg_n_0 | count_t0                    | reset_IBUF               |                3 |              9 |
+|  clk_IBUF_BUFG                      |                             | reset_IBUF               |                8 |              9 |
+|  clk_IBUF_BUFG                      |                             | afis/counter[15]_i_1_n_0 |                4 |             15 |
+|  clk_IBUF_BUFG                      | auto/counter_a[31]_i_1_n_0  | reset_IBUF               |                8 |             40 |
+|  clk_IBUF_BUFG                      | count_t0                    |                          |               20 |             64 |
+|  clk_IBUF_BUFG                      | count_t0                    | reset_IBUF               |               44 |            256 |
++-------------------------------------+-----------------------------+--------------------------+------------------+----------------+
+
+
